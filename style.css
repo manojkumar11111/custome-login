@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+.card{
+  background: white;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+  margin: 10px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 20px;
+  width: 400px;
+}
+.header{
+  margin-bottom: 20px;
+  color: blue;
+  font-size: 50px;
+}
+.actions{
+  margin-top: 20px;
+  font-size: 50px;
+}
+.content{
+  margin: 10px;
+  color: red;
+  font-size: 40px;
+}
+.uname{
+  outline: 3px solid red;
+  background: lightgreen;
+  border-radius: 5px;
+  color: brown;
+}
+.upass{
+  outline: 2px solid red;
+  background: lightgreen;
+  border-radius: 5px;
+  color: brown;
+}
+.btn{
+  color: brown;
+  background: lightgreen;
+  width: 60px;
+  height: 30px;
+  border-radius: 8px;
+}
